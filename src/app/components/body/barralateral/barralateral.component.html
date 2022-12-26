@@ -1,0 +1,9 @@
+<div class="container d-flex flex-column justify-content-center align-items-center mt-2">
+    <div>
+        <h4>{{titulo}}</h4>
+    </div>
+    <div class="ctn__btn"  *ngFor="let palabra of listaArrayhijo; index as i">
+            <button class="btn" (click)="seleccionaPalabra(palabra)" >{{i+1}} . {{palabra}}</button>       
+    </div>
+    </div>
+

@@ -1,0 +1,10 @@
+.ctn__btn{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+    background-color: #6D67E4;
+    padding: 5px 40px;
+    margin: 5px;
+    color: #fff;
+}

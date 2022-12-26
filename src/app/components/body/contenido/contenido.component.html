@@ -1,0 +1,10 @@
+    <div class="text-center">
+        <h4>{{titulo}}</h4>
+    </div>
+    <div>
+    </div>
+    <div class="mt-5 mb-5 d-flex gap-1 justify-content-center">
+        <input type="text" class="forms_input" placeholder="Escribe..." #inputPalabra autofocus value="{{palabrainput}}" >
+        <button class="btn btn-primary" (click)="agregarPalabra(inputPalabra.value)" >Agregar</button>
+    </div>
+
